@@ -1,0 +1,258 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #edecec;
+}
+
+aside#navbar {
+    border-right: 1px solid rgba(128, 128, 128, 0.728);
+    padding: 60px 120px 0px 25px;
+    background-color: white;
+}
+
+aside#navbar a {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+aside#navbar a:hover {
+    background-color: rgba(25, 25, 25, 0.341);
+    border-radius: 7px;
+    width: 160px;
+    height: 10px;
+}
+
+aside#navbar img {
+    width: 100px;
+    padding-bottom: 30px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 200,
+        'opsz' 48
+}
+
+aside#navbar a p {
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stories img {
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00, #3020ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    clip-path: circle();
+    margin: 20px 0 0 15px;
+    padding: 2px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.update-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1000px;
+    width: 1000px;
+    background-color: transparent;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.updatediv1 {
+    width: 470px;
+    height: 1000px;
+    margin-left: 150px;
+}
+
+.stories {
+    width: 470px;
+    height: 120px;
+    background-color: #fff;
+    margin: 20px 0;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+figcaption {
+    text-align: center;
+    font-size:12px;
+    padding: 5px;
+}
+
+.first-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.second-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.third-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.fourth-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.picture-area {
+    width: 470px;
+    height: 587.5px;
+    background-color: red;
+}
+
+.profile-area {
+    width: 470px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+}
+
+.profile-area img {
+    width: 10%;
+    border-radius: 200px;
+}
+
+.caption-area {
+    width: 470px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.updatediv2 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid gray;
+    margin: 20px 0 20px 50px;
+}
+
+img.profile-picture{
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    clip-path: circle();
+    margin: 5px 0 0 10px;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+/*section#find-friends {
+    padding: 40px 120px 0px 10px;
+}
+
+section#find-friends a img {
+    border-radius: 20px;
+    width: 30px;
+    height:30px
+}
+
+section#find-friends a.whole {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+section#find-friends a span {
+    margin-left: 10px;
+}
+
+section#find-friends a span p.username {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section#find-friends a span p.name {
+    color: grey;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+section#find-friends a p.links {
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    font-size: 13px;
+    cursor: pointer;
+    color:rgba(0, 183, 255, 0.812);
+}
+
+section#find-friends div{
+    margin-top: 30px;
+}
+
+section#find-friends div p{
+    color:grey; 
+    font-weight:bold; 
+    font-size: 15px;
+}
+
+section#find-friends div a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    position: relative;
+    left: 120px;
+    font-size: 13px;
+    font-weight: bold;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
